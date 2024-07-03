@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Connect to the Mongo DB
-mongoose.connect('mongodb://127.0.0.1/27017/NONAMEYET');
+mongoose.connect('mongodb://localhost:27017/');
 
-// Export connection
-module.exports = connection;
+// Export the connection
+module.exports = mongoose.connection;
