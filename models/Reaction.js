@@ -1,6 +1,6 @@
+// Import the mongoose module and the Schema object from mongoose with Types to define the Reaction schema
 const mongoose = require("mongoose");
 const { Schema, Types } = mongoose;
-
 // Defines the Reaction schema
 const reactionSchema = new Schema(
   {
@@ -30,5 +30,5 @@ const reactionSchema = new Schema(
     id: false,
   }
 );
-
+// Export the Reaction schema
 module.exports = reactionSchema;

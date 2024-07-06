@@ -1,3 +1,4 @@
+// The names are for seeding the data with random names
 const names = [
   "Aaran",
   "Aaren",
@@ -72,7 +73,7 @@ const names = [
   "Nathaniel",
   "Parker",
 ];
-
+// The thoughtTexts are for seeding the data with random thoughts
 const thoughtTexts = [
   "This is my first thought!",
   "I love coding!",
@@ -92,7 +93,7 @@ const thoughtTexts = [
   "Testing is important.",
   "Always refactor your code.",
 ];
-
+// The reactionBodies are for seeding the data with random reactions
 const reactionBodies = [
   "Nice thought!",
   "I agree with you.",
@@ -111,12 +112,12 @@ const reactionBodies = [
   "Cool!",
   "Indeed.",
 ];
-
+// This function will return a random item from an array
 const getRandomArrItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-
+// This function will return a random name from the names array
 const getRandomName = () =>
   `${getRandomArrItem(names)} ${getRandomArrItem(names)}`;
-
+// This function will return an array of random thoughts
 const getRandomThoughts = (num) => {
   const thoughts = [];
   for (let i = 0; i < num; i++) {
@@ -127,7 +128,7 @@ const getRandomThoughts = (num) => {
   }
   return thoughts;
 };
-
+// This function will return an array of random reactions
 const getRandomReactions = (num) => {
   const reactions = [];
   for (let i = 0; i < num; i++) {
@@ -138,5 +139,5 @@ const getRandomReactions = (num) => {
   }
   return reactions;
 };
-
+// Export the functions
 module.exports = { getRandomName, getRandomThoughts, getRandomReactions };
