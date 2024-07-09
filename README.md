@@ -30,6 +30,10 @@ You'll need to install GitBash, VS Code, Node.js, NPM Express, and NPM Mongoose.
 
 The Social API Turbo is used to create a database for your social media networking applications with users that have a friends list, thoughts, and the thoughts have reactions (which are sort of like replies).
 
+- <strong>Social API Turbo Video</strong>
+
+- [Video](https://drive.google.com/file/d/1rr44sNe4TknXo9sABqTTDos9rQmesAB0/view?usp=drive_link)
+
 - <strong>Social API Turbo Screenshots</strong>
 
 - ![Screenshot](/images/SeedLog.png)
