@@ -1,7 +1,6 @@
 # Social-API-Turbo
 ![Static Badge](https://img.shields.io/badge/JavaScript-(50%25)-yellow)
-![Static Badge](https://img.shields.io/badge/NoSQL-(25%25)-lightyellow)
-![Static Badge](https://img.shields.io/badge/SQL-(15%25)-lightblue)
+![Static Badge](https://img.shields.io/badge/NoSQL-(40%25)-lightyellow)
 ![Static Badge](https://img.shields.io/badge/JSON-(10%25)-purple)
 
 - A cutting-edge NoSQL social network API for building and enhancing social networking applications with scalable, high-performance backend support.
